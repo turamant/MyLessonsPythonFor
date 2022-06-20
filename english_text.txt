@@ -15,3 +15,25 @@ Giraffes do not hunt. They eat leaves, grass, and fruit. Due to their long neck,
 the highest leaves on the trees that other animals cannot eat.
 You can often meet giraffes in city Zoos. They are very friendly and all the children like them
 very much.
+
+The built-in help() function displays helpful information about the object passed as an argument.
+In Python, you can get type information about an object with the built-in type() function.
+
+By type information I mean information about the class that implements the object.
+
+To list all the attributes of an object, use the built-in dir() function.
+
+It returns a long list of attribute names, that is, method and variable names of the object.
+
+In Python, each object has an identity. The identity is an integer value that is constant throughout the lifetime of the object.
+
+To access ID any Python object, you can call the built-in id() function on it.
+
+The hasattr() method can be used to check if an object has a specific attribute.
+To get the value of an attribute from an object, you can use getattr() function.
+
+Sometimes you may be interested to know in advance if an object is callable.
+
+In layman’s terms, this means checking if you can put parenthesis (and arguments) after the object to run some code.
+
+To check if an object is callable, call the built-in callable() function on it. This function returns True if the object is callable and False if not.
